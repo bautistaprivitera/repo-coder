@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.cabeza{
+    background-color: #8fbc8f;
+    display: grid;
+    grid-template-rows: repeat(2, 0.2fr);
+}
+.titulo{
+    text-align: center;
+    font-size: 2.5em;
+}
+.img{
+    width: 100%;
+    text-align: center;
+    height: 180px;
+}
+.indice{
+    height: 90px;
+    text-align: center;
+    font-size: 1.25em;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.inicio{
+    border: #000000 solid;
+    padding: 0.125em;
+}
+.deportes{
+    border: #000000 solid;
+    padding: 0.125em;
+}
+.contacto{
+    border: #000000 solid;
+    padding: 0.125em;
+}
+.indice ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+}
+.carrusel img{
+    width: 19%;
+}
+.admi{
+    width: 25%; 
+}
+.redes{
+    text-align: center;
+
+}
+.deportes-info{
+    text-align: left;
+    font-size: 1.25em;
+}
+.h2{
+    text-align: center;
+    height: 80px;
+    font-size: 2em;
+}
+.ubi{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: #000000 solid;
+    padding: 5px;
+    width: 50%;
+}
+.boton{
+    text-align: center;
+    margin: 7px;
+}
+iframe{
+    width: 50%;
+}
+.b-carru{
+    text-align: center;
+}
