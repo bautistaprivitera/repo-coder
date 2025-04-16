@@ -12,47 +12,47 @@
 </head>
 <body>
     <div class="conteiner cabeza">
-        <header class="head row">
-            <h1 class="titulo">CLUB PERSONAL BANCO MENDOZA</h1>
+        <header class="head row bg-black">
+            <h1 class="titulo text-white">CLUB PERSONAL BANCO MENDOZA</h1>
             <div class="img">
                 <img src="../assets/escudo.png">
             </div>
             <nav class="indice">
                 <ul class="navbar">
-                    <li><a class="inicio" href="../index.html">Inicio</a></li>
-                    <li><a class="deportes" href="../page/deportes.html">Deportes</a></li>
-                    <li><a class="contacto" href="../page/contacto.html">Contacto</a></li>
+                    <li><a class="inicio text-white" href="../index.html">Inicio</a></li>
+                    <li><a class="deportes text-white" href="../page/deportes.html">Deportes</a></li>
+                    <li><a class="contacto text-white" href="../page/contacto.html">Contacto</a></li>
                 </ul>
             </nav>
         </header>
-        <main class="grid row">
-            <!-- PROXIMO CARRUSEL -->
+        <main class="grid row mt-3">
+            <h2 class="depo">NUESTROS DEPORTES</h2>
             <section id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
+                <div class="carousel-inner w-75">
+                  <article class="carousel-item active">
                     <img src="../assets/deportes1.png" class="d-block w-100" alt="ft1">
-                  </div>
-                  <div class="carousel-item">
+                  </article>
+                  <article class="carousel-item">
                     <img src="../assets/deportes3.png" class="d-block w-100" alt="ft1">
-                  </div>
-                  <div class="carousel-item">
+                  </article>
+                  <article class="carousel-item">
                     <img src="../assets/deportes2.png" class="d-block w-100" alt="ft1">
-                  </div>
-                  <div class="carousel-item active">
+                  </article>
+                  <article class="carousel-item active">
                     <img src="../assets/deportes4.png" class="d-block w-100" alt="ft1">
-                  </div>
-                  <div class="carousel-item">
+                  </article>
+                  <article class="carousel-item">
                     <img src="../assets/deportes5.png" class="d-block w-100" alt="ft1">
-                  </div>
-                  <div class="carousel-item">
+                  </article>
+                  <article class="carousel-item">
                     <img src="../assets/deportes6.png" class="d-block w-100" alt="ft1">
-                  </div>
-                  <div class="carousel-item active">
+                  </article>
+                  <article class="carousel-item active">
                     <img src="../assets/deportes7.png" class="d-block w-100" alt="ft1">
-                  </div>
-                  <div class="carousel-item">
+                  </article>
+                  <article class="carousel-item">
                     <img src="../assets/deportes8.png" class="d-block w-100" alt="ft1">
-                  </div>
+                  </article>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -63,35 +63,37 @@
                   <span class="visually-hidden">Next</span>
                 </button>
             </section>
+            <div>
+              <p class="deportes-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium saepe excepturi enim consequuntur, dolores odio aliquid iure vero molestias! Culpa possimus sed explicabo corrupti, quidem rem inventore quo veniam.</p>
+            </div>
         </main>
         <footer class="pie row">
-            <!-- PROXIMOS PARRAFOS CON INFORMACION SOBRE LOS DEPORTES -->
-            <p class="deportes-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium saepe excepturi enim consequuntur, dolores odio aliquid iure vero molestias! Culpa possimus sed explicabo corrupti, quidem rem inventore quo veniam.</p>
-
-            <h2 class="redes mt-2 mb-0 text-white bg-black">Seguinos en redes para mas info</h2>
-            <!-- PROXIMOS HIPERVINCULOS CON LAS REDES DEL CLUB -->
-            <nav id="navbar-example2" class="navbar bg-black">
-                <img src="../assets/escudo.png" alt="escudo">
+            <h2 class="redes mt-2 mb-0 text-white bg-black p-3">Seguinos en redes para mas info</h2>
+            <nav class="navbar bg-black">
+              <div class="container">
+                <a class="navbar-brand" href="#">
+                  <img src="../assets/escudo.png" alt="escudo" width="80" height="80">
+                </a>
                 <ul class="nav nav-pills">
                   <li class="nav-item">
-                    <img src="../assets/instagram.jpg" alt="ig">
-                    <a class="nav-link text-white" href="#">INSTAGRAM</a>
+                    <img class="" src="../assets/instagram.jpg" alt="ig" width="70" height="70">
+                    <a class="nav-link text-white ps-0 mt-1" href="#">INSTAGRAM</a>
                   </li>
                   <li class="nav-item">
-                    <img src="../assets/facebook.png" alt="facebook">
-                    <a class="nav-link text-white" href="#">FACEBOOK</a>
+                    <img class="" src="../assets/facebook.png" alt="facebook" width="70" height="70">
+                    <a class="nav-link text-white ps-1 mt-1" href="#">FACEBOOK</a>
                   </li>
                   <li class="nav-item">
-                    <img src="../assets/twitter.png" alt="twitter">
-                    <a class="nav-link text-white" href="#">TWITTER</a>
+                    <img class="" src="../assets/twitter.png" alt="twitter" width="70" height="70">
+                    <a class="nav-link text-white ps-1 mt-1" href="#">TWITTER</a>
                   </li>
                   <li class="nav-item">
-                    <img src="../assets/tik tok.png" alt="tik tok">
-                    <a class="nav-link text-white" href="#">TIK TOK</a>
+                    <img class="" src="../assets/tik tok.png" alt="tik tok" width="70" height="70">
+                    <a class="nav-link text-white ps-1 mt-1" href="#">TIK TOK</a>
                   </li>
-                  
                 </ul>
-              </nav>
+              </div>
+            </nav>
         </footer>
     </div>
 

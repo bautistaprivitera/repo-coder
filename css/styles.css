@@ -12,7 +12,7 @@
     font-size: 2.5em;
 }
 .img{
-    width: 100%;
+    width: 98%;
     text-align: center;
     height: 180px;
 }
@@ -27,15 +27,15 @@
     list-style-type: none;
 }
 .inicio{
-    border: #000000 solid;
+    border: #ffffff solid;
     padding: 0.125em;
 }
 .deportes{
-    border: #000000 solid;
+    border: #ffffff solid;
     padding: 0.125em;
 }
 .contacto{
-    border: #000000 solid;
+    border: #ffffff solid;
     padding: 0.125em;
 }
 .indice ul li a{
@@ -49,16 +49,25 @@
 .carrusel img{
     width: 19%;
 }
+.depo{
+    text-align: center;
+    height: 50px;
+    font-size: 2em;
+}
 .admi{
     width: 25%; 
 }
 .redes{
     text-align: center;
-
 }
 .deportes-info{
     text-align: left;
     font-size: 1.25em;
+}
+.visita{
+    text-align: center;
+    height: 80px;
+    font-size: 2em;
 }
 .h2{
     text-align: center;
