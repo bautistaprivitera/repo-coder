@@ -87,6 +87,10 @@
     padding: 5px;
     width: 50%;
 }
+.ubicacion{
+    display: flex;
+    justify-content: end;
+}
 .boton{
     text-align: center;
     margin: 7px;
@@ -96,8 +100,4 @@ iframe{
 }
 .b-carru{
     text-align: center;
-}
-.ubicacion{
-    display: flex;
-    justify-content: flex-end;
 }
