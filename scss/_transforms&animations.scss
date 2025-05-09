@@ -1,15 +1,79 @@
-.deportes:hover{
-    @include aumento
-}
-.inicio:hover{
-    @include aumento
-}
-.contacto:hover{
-    @include aumento
-}
-.navbar{
+.dep{
     &:hover{
-        @include aumento
+        @include aumento;
     }
-   
 }
+.ini{
+    &:hover{
+        @include aumento;
+    }
+}
+.con{
+    &:hover{
+        @include aumento;
+    }
+}
+.historia{
+    &:hover{
+        transform: scale(1.02);
+        transition: all 1s ease-out;
+        background-color: $fourth-color;
+    }
+}
+.bas{
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.7s ease-out;
+        cursor: pointer;
+    }
+}
+.fut{
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.7s ease-out;
+        cursor: pointer;
+    }
+}
+.hsc{
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.7s ease-out;
+        cursor: pointer;
+    }
+}
+.hsp{
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.7s ease-out;
+        cursor: pointer;
+    }
+}
+.pat{
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.7s ease-out;
+        cursor: pointer;
+    }
+}
+.rug{
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.7s ease-out;
+        cursor: pointer;
+    }
+}
+.sof{
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.7s ease-out;
+        cursor: pointer;
+    }
+}
+.ten{
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.7s ease-out;
+        cursor: pointer;
+    }
+}
+

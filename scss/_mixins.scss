@@ -19,6 +19,7 @@
     justify-content: flex-end;
 }
 @mixin aumento{
-    transform: scale(1.5);
+    transform: scale(1.2);
+    transition: all 0.3s ease-in;
     cursor: pointer;
 }

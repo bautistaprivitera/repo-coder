@@ -88,22 +88,74 @@ body {
   justify-content: flex-end;
 }
 
-.deportes:hover {
-  transform: scale(1.5);
+.dep:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in;
   cursor: pointer;
 }
 
-.inicio:hover {
-  transform: scale(1.5);
+.ini:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in;
   cursor: pointer;
 }
 
-.contacto:hover {
-  transform: scale(1.5);
+.con:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in;
   cursor: pointer;
 }
 
-.navbar:hover {
-  transform: scale(1.5);
+.historia:hover {
+  transform: scale(1.02);
+  transition: all 1s ease-out;
+  background-color: #128843;
+}
+
+.bas:hover {
+  transform: scale(1.2);
+  transition: all 0.7s ease-out;
+  cursor: pointer;
+}
+
+.fut:hover {
+  transform: scale(1.2);
+  transition: all 0.7s ease-out;
+  cursor: pointer;
+}
+
+.hsc:hover {
+  transform: scale(1.2);
+  transition: all 0.7s ease-out;
+  cursor: pointer;
+}
+
+.hsp:hover {
+  transform: scale(1.2);
+  transition: all 0.7s ease-out;
+  cursor: pointer;
+}
+
+.pat:hover {
+  transform: scale(1.2);
+  transition: all 0.7s ease-out;
+  cursor: pointer;
+}
+
+.rug:hover {
+  transform: scale(1.2);
+  transition: all 0.7s ease-out;
+  cursor: pointer;
+}
+
+.sof:hover {
+  transform: scale(1.2);
+  transition: all 0.7s ease-out;
+  cursor: pointer;
+}
+
+.ten:hover {
+  transform: scale(1.2);
+  transition: all 0.7s ease-out;
   cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
