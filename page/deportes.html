@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../scss/styles.css">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -95,10 +95,104 @@
                 <span class="visually-hidden">Next</span>
               </button>
             </section>
-            <!--PROXIMAMENTE INFO SOBRE CADA DEPORTE-->
-            <div>
-              <p class="deportes-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium saepe excepturi enim consequuntur, dolores odio aliquid iure vero molestias! Culpa possimus sed explicabo corrupti, quidem rem inventore quo veniam.</p>
-            </div>
+            <section class="accordion p-3" id="accordionExample">
+              <article class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <strong>Basquet</strong>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <p class="accordion-body">
+                    En este deporte aprenderemos a divertirnos picando la pelota y encesando al aro, podes venir a divertirte con nosotros a partir de los 4 años!!! Lo mejor de todo es que no necesitas nada para comenzar, asi que te esperamos para que vengas a divertirte y hacer muchos amigos.😉
+                  </p>
+                </div>
+              </article>
+              <article class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>Futbol</strong>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <p class="accordion-body">
+                    En futbol te enseñaremos todo lo que necesitas aprender para ser una estrella en este deporte, te recibimos a partir de los 3 años!!! Solo trae tus botines y nosotros hacemos el resto, asi que te esperamos para que vengas a divertirte y hacer muchos amigos.😉
+                  </p>
+                </div>
+              </article>
+              <article class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <strong>Hockey sobre cesped</strong>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <p class="accordion-body">
+                    En Hockey sobre cesped aprenderas como mandejar el palo y la bocha como ninguno, te recibimos a partir de los 6 años!!! No necesitas nada para comenzar ya que nosotros te prestamos todo para que puedas empezar de la mejor manera, asi que te esperamos para que vengas a divertirte y hacer muchos amigos.😉
+                  </p>
+                </div>
+              </article>
+              <article class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>Hockey sobre patines</strong>
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <p class="accordion-body">
+                    En este entretenido deporte aprenderas a dominar la bocha y el palo sobre los patines, te recibimos a partir de los 2 años!!! Tampoco necesitas nada para empezar porque a los chico que comienzan le prestamos todo, asi que te esperamos para que vengas a divertirte y hacer muchos amigos.😉
+                  </p>
+                </div>
+              </article>
+              <article class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>Patin artistico</strong>
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <p class="accordion-body">
+                    Aqui te enseñaremos a bailar sobre los patines, te recibimos a partir de los 5 años!!! Solo trae tus patines y comenza a bailar, asi que te esperamos para que vengas a divertirte y hacer muchos amigos.😉
+                  </p>
+                </div>
+              </article>
+              <article class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>Rugby</strong>
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <p class="accordion-body">
+                    Aprende a jugar en equipo, correr y hacer muchos pases, te recibimos a partir de los 6 años!!! Trae tus botines y las ganas de aprender y nosotros hacemos el resto, asi que te esperamos para que vengas a divertirte y hacer muchos amigos.😉
+                  </p>
+                </div>
+              </article>
+              <article class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>Softbol</strong>
+                  </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <p class="accordion-body">
+                    Aqui te enseñaremos a batear como un profesional, te esperamos desde los 8 años!!! No hace falta que traigas nada ya que nosotros te damos todo para comenzar, asi que te esperamos para que vengas a divertirte y hacer muchos amigos.😉
+                  </p>
+                </div>
+              </article>
+              <article class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEigth" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>Tenis</strong>
+                  </button>
+                </h2>
+                <div id="collapseEigth" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <p class="accordion-body">
+                    Aqui aprenderas a jugar el mejor tenis de la provincia con los mejores profes, te esperamos a partir de los 6 años!!! Solamente trae tu raqueta y tus ganas de aprender que nosotros te enseñamos, asi que te esperamos para que vengas a divertirte y hacer muchos amigos.😉
+                  </p>
+                </div>
+              </article>
+            </section>
         </main>
         <footer class="pie row">
             <h2 class="redes mt-2 mb-0 text-white bg-black p-3">Seguinos en redes para mas info</h2>

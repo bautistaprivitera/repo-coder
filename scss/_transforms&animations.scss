@@ -1,0 +1,15 @@
+.deportes:hover{
+    @include aumento
+}
+.inicio:hover{
+    @include aumento
+}
+.contacto:hover{
+    @include aumento
+}
+.navbar{
+    &:hover{
+        @include aumento
+    }
+   
+}
